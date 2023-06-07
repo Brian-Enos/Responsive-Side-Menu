@@ -118,4 +118,20 @@
   padding: .4rem 1.2rem;
   line-height: 1.8rem;
   z-index: 20;
+  opacity: 0;
+}
+.sidebar ul li:hover .tooltip {
+  opacity: 1;
+}
+.sidebar.active ul li .tooltip {
+  display: none;
+}
+.main-content {
+  position: relative;
+  background-color: #eee;
+  min-height: 100vh;
+  top: 0;
+  left: 80px;
+  transition: all 0.5sec ease;
+  width: calc(100% - 80px);
 }
