@@ -116,6 +116,15 @@
   </div>
   
 
-  <script type="text/javascript" src="JavaScript/script.js"></script>
+  <script>
+    let button = document.querySelector("#button");
+    let sidebar = document.querySelector(".navbar");
+
+    button.onclick = function() {
+    sidebar.classList.toggle("active");
+    }
+  </script>
+<!-- 
+  <script src="JavaScript/script.js"></script> -->
 </body>
 </html>
