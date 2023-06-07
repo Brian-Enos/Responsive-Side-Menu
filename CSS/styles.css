@@ -40,7 +40,7 @@
 .sidebar.active #button {
   left: 90%;
 }
-.sidebar.top.logo {
+.sidebar .top .logo {
   color: #fff;
   display: flex;
   width: 100%;
@@ -95,7 +95,7 @@
   color: #12171e;
 
 }
-.sidebar ul li a i{
+.sidebar ul li a i {
   min-width: 50px;
   text-align: center;
   height: 50px;
